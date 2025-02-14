@@ -15,7 +15,7 @@ val textSizePercent = KTextView {
     withText(R.string.text_size_percent)
 }
 
-val buttonDecreaseTextSize = KTextView {
+val buttonDecreaseTextSize = KButton {
     withId(R.id.buttonDecreaseTextSize)
     withText(R.string.text_size_decrease)
 }
@@ -24,7 +24,7 @@ val textSizeSeekBar = KTextView {
     withId(R.id.text_size_seek_bar)
 }
 
-val buttonIncreaseTextSize = KTextView {
+val buttonIncreaseTextSize = KButton {
     withId(R.id.buttonIncreaseTextSize)
     withText(R.string.text_size_increase)
 }
