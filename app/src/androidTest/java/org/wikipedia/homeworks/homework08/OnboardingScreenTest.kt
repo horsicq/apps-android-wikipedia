@@ -29,4 +29,15 @@ class OnboardingScreenTest: TestCase() {
             }
         }
     }
+
+    @Test
+    fun addLanguagesButtonTest() {
+        run {
+            step("Check add or edit Languages button") {
+                OnboardingScreen.slider.childAt<OnboardingPagerFirstItem>(0) {
+                    addOrEditLanguagesButton.isDisplayed()
+                }
+            }
+        }
+    }
 }

@@ -22,4 +22,14 @@ object OnboardingScreen : KScreen<OnboardingScreen>() {
     val pageIndicator = KTabLayout {
         withId(R.id.view_onboarding_page_indicator)
     }
+
+    val slider = KViewPager2(
+        builder = {
+            withId(R.id.fragment_pager)
+        },
+        itemTypeBuilder = {
+            itemType(::OnboardingPagerFirstItem)
+            itemType(::OnboardingPagerSecondItem)
+        }
+    )
 }
