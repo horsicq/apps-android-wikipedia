@@ -1,4 +1,4 @@
-package org.wikipedia.homeworks
+package org.wikipedia.homeworks.homework03
 
 import android.widget.Button
 import android.widget.ImageView
